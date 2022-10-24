@@ -5,8 +5,8 @@ document.getElementById('btn').onclick = function() {
 
 document.getElementById('one').onclick = function() {
   document.getElementById('selected').innerHTML = 'You Selected 1 out of 5';
-  document.getElementById('two').style.background = 'hsl(216, 12%, 54%)';
-  document.getElementById('two').style.color = '#fff';
+  document.getElementById('one').style.background = 'hsl(216, 12%, 54%)';
+  document.getElementById('one').style.color = '#fff';
 }
 
 document.getElementById('two').onclick = function() {
@@ -17,8 +17,8 @@ document.getElementById('two').onclick = function() {
 
 document.getElementById('three').onclick = function() {
   document.getElementById('selected').innerHTML = 'You Selected 3 out of 5'
-  document.getElementById('two').style.background = 'hsl(216, 12%, 54%)';
-  document.getElementById('two').style.color = '#fff';
+  document.getElementById('three').style.background = 'hsl(216, 12%, 54%)';
+  document.getElementById('three').style.color = '#fff';
 }
 
 document.getElementById('four').onclick = function() {
@@ -29,6 +29,6 @@ document.getElementById('four').onclick = function() {
 
 document.getElementById('five').onclick = function() {
   document.getElementById('selected').innerHTML = 'You Selected 5 out of 5'
-  document.getElementById('two').style.background = 'hsl(216, 12%, 54%)';
-  document.getElementById('two').style.color = '#fff';
+  document.getElementById('five').style.background = 'hsl(216, 12%, 54%)';
+  document.getElementById('five').style.color = '#fff';
 }
